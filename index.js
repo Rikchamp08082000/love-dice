@@ -15,5 +15,5 @@ else if(randomNumber1 < randomNumber2){
     document.querySelector("h1").innerHTML=" Rithu Wins 🥰";
 }
 else if(randomNumber1 === randomNumber2){
-    document.querySelector("h1").innerHTML=" 💏 Bothloves each other ";
+    document.querySelector("h1").innerHTML=" Chinnu💏Rithu loves each other ";
 }
