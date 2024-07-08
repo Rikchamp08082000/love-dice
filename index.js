@@ -9,10 +9,10 @@ var randomImageSrc2 = "images/dice" + randomNumber2 + ".png";
 var image2 = document.querySelectorAll("img")[1].setAttribute("src", randomImageSrc2);
 
 if (randomNumber1 > randomNumber2){
-    document.querySelector("h1").innerHTML=" 🥰 Player1 Wins ";
+    document.querySelector("h1").innerHTML=" 🥰 Player1 💕 Player2 🥰";
 }
 else if(randomNumber1 < randomNumber2){
-    document.querySelector("h1").innerHTML=" Player2 Wins 🥰";
+    document.querySelector("h1").innerHTML=" Player2 🥰 💕 🥰Player1 ";
 }
 else if(randomNumber1 === randomNumber2){
     document.querySelector("h1").innerHTML=" Play1💏Play2 loves each other ";
